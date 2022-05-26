@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(255, 241, 220); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+h1, h2, p{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+#description {
+  margin: auto;
+  width: 500px;
+}
+
+
+a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(249, 0, 0);
+}
+
+.ingredients, .recipe-steps {
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+}
+
+.ingredients {
+  width: fit-content;
+}
+
+.recipe-steps {
+  width: 500px;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 500px;
+}

@@ -1,0 +1,9 @@
+.recipes {
+  margin: auto;
+  width: fit-content;
+}
+
+.recipes ul {
+  margin: 0;
+  padding: 0;
+}
